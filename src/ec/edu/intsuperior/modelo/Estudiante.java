@@ -7,6 +7,15 @@ public class Estudiante {
     private int edad;
     private String universidad;
 
+    public Estudiante() {
+    }
+
+    public Estudiante(String nombre, int edad, String universidad) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.universidad = universidad;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -30,4 +39,6 @@ public class Estudiante {
     public void setUniversidad(String universidad) {
         this.universidad = universidad;
     }
+
+
 }

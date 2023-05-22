@@ -6,6 +6,15 @@ public class Empleado {
     private int edad;
     private String cargo;
 
+    public Empleado() {
+    }
+
+    public Empleado(String nombre, int edad, String cargo) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.cargo = cargo;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -28,5 +37,7 @@ public class Empleado {
 
     public void setCargo(String cargo) {
         this.cargo = cargo;
-    }  
+    }
+    
+
 }
